@@ -1,4 +1,5 @@
 node_modules
+<<<<<<< HEAD
 vendor
 .bundle
 .sass-cache
@@ -8,3 +9,13 @@ vendor
 
 /assets/js/*hydejack-*
 /_sass/*/__*__/*
+=======
+.sass-cache
+
+# Dev stuff
+Makefile
+Gemfile.lock
+_config.dev.yml
+.vscode
+*.gem
+>>>>>>> 5652435a79068629ae8084e516793af81e2b6431

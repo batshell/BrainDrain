@@ -17,7 +17,11 @@
 layout: base
 ---
 
+<<<<<<< HEAD
 {% assign strings = site.data.strings %}
+=======
+  <body class="{{ page.layout }}{% if page.url == '/' %} home{% endif %}">
+>>>>>>> 5652435a79068629ae8084e516793af81e2b6431
 
 <article class="page" role="article">
   <header>
@@ -25,6 +29,7 @@ layout: base
     {% include components/message.html text=page.description hide=page.hide_description %}
   </header>
 
+<<<<<<< HEAD
   {{ content }}
 
   <hr class="dingbat related"/>
@@ -54,3 +59,12 @@ layout: base
     </ul>
   {% endif %}
 </article>
+=======
+    <main class="container">
+      {{ content }}
+    </main>
+
+    {% include custom-foot.html %}
+  </body>
+</html>
+>>>>>>> 5652435a79068629ae8084e516793af81e2b6431

@@ -17,12 +17,19 @@
 layout: base
 ---
 
+<<<<<<< HEAD
 <article class="page" role="article">
   <header>
     <h1 class="page-title">{{ page.title }}</h1>
     {% include components/message.html text=page.description hide=page.hide_description %}
   </header>
 
+=======
+<header>
+  <h1 class="page-title">{{ page.title }}</h1>
+</header>
+<div class="content">
+>>>>>>> 5652435a79068629ae8084e516793af81e2b6431
   {{ content }}
   {% include body/comments.html %}
 </article>
